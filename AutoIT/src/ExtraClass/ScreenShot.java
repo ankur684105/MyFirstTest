@@ -8,12 +8,12 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-public class report {
+public class ScreenShot {
 
 	public static String takeScreenShot(WebDriver driver,String fileName) throws IOException
 	{
 		fileName= fileName+".png";
-		String directory="//Users//ankurmarkanda//Downloads";
+		String directory="//Users//ankurmarkanda//Desktop";
 		File sourceFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(sourceFile,new File(directory+fileName));
 		String destination=directory+fileName;

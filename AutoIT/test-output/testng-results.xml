@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="LISTENERS TestSuite" duration-ms="138500" started-at="2017-08-08T17:09:12Z" finished-at="2017-08-08T17:11:30Z">
+  <suite name="LISTENERS TestSuite" duration-ms="112632" started-at="2017-08-09T16:38:55Z" finished-at="2017-08-09T16:40:48Z">
     <groups>
     </groups>
-    <test name="Login To CitrusPay" duration-ms="138500" started-at="2017-08-08T17:09:12Z" finished-at="2017-08-08T17:11:30Z">
+    <test name="Login To CitrusPay" duration-ms="112632" started-at="2017-08-09T16:38:55Z" finished-at="2017-08-09T16:40:48Z">
       <class name="TestNG.TestAnnotaion">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="beforeClass" is-config="true" duration-ms="5266" started-at="2017-08-08T22:39:12Z" finished-at="2017-08-08T22:39:17Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="beforeClass" is-config="true" duration-ms="5682" started-at="2017-08-09T22:08:55Z" finished-at="2017-08-09T22:09:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="39826" started-at="2017-08-08T22:39:17Z" finished-at="2017-08-08T22:39:57Z">
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="37345" started-at="2017-08-09T22:09:01Z" finished-at="2017-08-09T22:09:38Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="invalidLoginValidation(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="invalidLoginValidation" duration-ms="776" started-at="2017-08-08T22:39:57Z" data-provider="credentials" finished-at="2017-08-08T22:39:58Z">
+        <test-method status="PASS" signature="invalidLoginValidation(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="invalidLoginValidation" duration-ms="802" started-at="2017-08-09T22:09:38Z" data-provider="credentials" finished-at="2017-08-09T22:09:39Z">
           <params>
             <param index="0">
               <value>
@@ -38,11 +38,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginValidation -->
-        <test-method status="PASS" signature="afterMeathod()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="467" started-at="2017-08-08T22:39:58Z" finished-at="2017-08-08T22:39:58Z">
+        <test-method status="PASS" signature="afterMeathod(org.testng.ITestResult)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="7011" started-at="2017-08-09T22:09:39Z" finished-at="2017-08-09T22:09:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginValidation status=SUCCESS method=TestAnnotaion.invalidLoginValidation(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMeathod -->
-        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="49534" started-at="2017-08-08T22:39:58Z" finished-at="2017-08-08T22:40:48Z">
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="9996" started-at="2017-08-09T22:09:46Z" finished-at="2017-08-09T22:09:56Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="invalidLoginValidation(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="invalidLoginValidation" duration-ms="700" started-at="2017-08-08T22:40:48Z" data-provider="credentials" finished-at="2017-08-08T22:40:49Z">
+        <test-method status="PASS" signature="invalidLoginValidation(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="invalidLoginValidation" duration-ms="589" started-at="2017-08-09T22:09:56Z" data-provider="credentials" finished-at="2017-08-09T22:09:56Z">
           <params>
             <param index="0">
               <value>
@@ -69,11 +76,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginValidation -->
-        <test-method status="PASS" signature="afterMeathod()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="123" started-at="2017-08-08T22:40:49Z" finished-at="2017-08-08T22:40:49Z">
+        <test-method status="PASS" signature="afterMeathod(org.testng.ITestResult)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="570" started-at="2017-08-09T22:09:56Z" finished-at="2017-08-09T22:09:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginValidation status=SUCCESS method=TestAnnotaion.invalidLoginValidation(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMeathod -->
-        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="18415" started-at="2017-08-08T22:40:49Z" finished-at="2017-08-08T22:41:07Z">
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="13090" started-at="2017-08-09T22:09:57Z" finished-at="2017-08-09T22:10:10Z">
           <params>
             <param index="0">
               <value>
@@ -84,7 +98,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="loginToApplication" duration-ms="573" started-at="2017-08-08T22:41:07Z" data-provider="credentials" finished-at="2017-08-08T22:41:08Z">
+        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="loginToApplication" duration-ms="557" started-at="2017-08-09T22:10:10Z" data-provider="credentials" finished-at="2017-08-09T22:10:11Z">
           <params>
             <param index="0">
               <value>
@@ -100,11 +114,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method status="PASS" signature="afterMeathod()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="110" started-at="2017-08-08T22:41:08Z" finished-at="2017-08-08T22:41:08Z">
+        <test-method status="PASS" signature="afterMeathod(org.testng.ITestResult)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="4289" started-at="2017-08-09T22:10:11Z" finished-at="2017-08-09T22:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=TestAnnotaion.loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMeathod -->
-        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="22011" started-at="2017-08-08T22:41:08Z" finished-at="2017-08-08T22:41:30Z">
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="31436" started-at="2017-08-09T22:10:15Z" finished-at="2017-08-09T22:10:46Z">
           <params>
             <param index="0">
               <value>
@@ -115,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="loginToApplication" duration-ms="558" started-at="2017-08-08T22:41:30Z" data-provider="credentials" finished-at="2017-08-08T22:41:30Z">
+        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="loginToApplication" duration-ms="620" started-at="2017-08-09T22:10:46Z" data-provider="credentials" finished-at="2017-08-09T22:10:47Z">
           <params>
             <param index="0">
               <value>
@@ -131,7 +152,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method status="PASS" signature="afterMeathod()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="111" started-at="2017-08-08T22:41:30Z" finished-at="2017-08-08T22:41:30Z">
+        <test-method status="PASS" signature="afterMeathod(org.testng.ITestResult)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="600" started-at="2017-08-09T22:10:47Z" finished-at="2017-08-09T22:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=TestAnnotaion.loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMeathod -->

@@ -1,6 +1,7 @@
 package TestNG;
 
 
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -8,11 +9,13 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 import PageClasses.Test1;
+
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
+import ExtraClass.*;
 public class TestAnnotaion 
 	{
 	public WebDriver driver;
@@ -83,8 +86,13 @@ public class TestAnnotaion
   	}
   
   @AfterMethod
-  public void afterMeathod()
+  public void afterMeathod(ITestResult testresult) throws IOException
   {
+	  if(testresult.getStatus()==ITestResult.SUCCESS){
+		  String path=ScreenShot.takeScreenShot(driver, testresult.getName());
+		  String imagePath=test.addScreenCapture(path);
+		  test.log(LogStatus.PASS, "Final Step",imagePath);
+	  }
 	  
 	  driver.quit();
 	  report.endTest(test);
