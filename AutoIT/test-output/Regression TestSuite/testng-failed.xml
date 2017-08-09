@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression TestSuite]">
+  <test name="Login To CitrusPay(failed)">
+    <parameter name="password" value="Ankur@93,kellog"/>
+    <parameter name="loginid" value="8142755993,8142755993"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestNG.TestAnnotaion">
+        <methods>
+          <include name="invalidLoginValidation"/>
+          <include name="testSetup"/>
+          <include name="afterMeathod"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- TestNG.TestAnnotaion -->
+    </classes>
+  </test> <!-- Login To CitrusPay(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->

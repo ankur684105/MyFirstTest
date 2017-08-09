@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LISTENERS TestSuite]">
+  <listeners>
+    <listener class-name="TestNG.customListeners"/>
+  </listeners>
+  <test name="Login To CitrusPay(failed)">
+    <classes>
+      <class name="TestNG.TestAnnotaion">
+        <methods>
+          <include name="invalidLoginValidation"/>
+          <include name="testSetup"/>
+          <include name="afterMeathod"/>
+          <include name="beforeClass"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- TestNG.TestAnnotaion -->
+    </classes>
+  </test> <!-- Login To CitrusPay(failed) -->
+</suite> <!-- Failed suite [LISTENERS TestSuite] -->

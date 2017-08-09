@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LISTENERS TestSuite" duration-ms="138500" started-at="2017-08-08T17:09:12Z" finished-at="2017-08-08T17:11:30Z">
+    <groups>
+    </groups>
+    <test name="Login To CitrusPay" duration-ms="138500" started-at="2017-08-08T17:09:12Z" finished-at="2017-08-08T17:11:30Z">
+      <class name="TestNG.TestAnnotaion">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="beforeClass" is-config="true" duration-ms="5266" started-at="2017-08-08T22:39:12Z" finished-at="2017-08-08T22:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="39826" started-at="2017-08-08T22:39:17Z" finished-at="2017-08-08T22:39:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="invalidLoginValidation(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="invalidLoginValidation" duration-ms="776" started-at="2017-08-08T22:39:57Z" data-provider="credentials" finished-at="2017-08-08T22:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8142755993]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ankur@93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginValidation -->
+        <test-method status="PASS" signature="afterMeathod()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="467" started-at="2017-08-08T22:39:58Z" finished-at="2017-08-08T22:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeathod -->
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="49534" started-at="2017-08-08T22:39:58Z" finished-at="2017-08-08T22:40:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="invalidLoginValidation(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="invalidLoginValidation" duration-ms="700" started-at="2017-08-08T22:40:48Z" data-provider="credentials" finished-at="2017-08-08T22:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8142755993]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kellogs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginValidation -->
+        <test-method status="PASS" signature="afterMeathod()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="123" started-at="2017-08-08T22:40:49Z" finished-at="2017-08-08T22:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeathod -->
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="18415" started-at="2017-08-08T22:40:49Z" finished-at="2017-08-08T22:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="loginToApplication" duration-ms="573" started-at="2017-08-08T22:41:07Z" data-provider="credentials" finished-at="2017-08-08T22:41:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8142755993]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ankur@93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="afterMeathod()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="110" started-at="2017-08-08T22:41:08Z" finished-at="2017-08-08T22:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeathod -->
+        <test-method status="PASS" signature="testSetup(java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="testSetup" is-config="true" duration-ms="22011" started-at="2017-08-08T22:41:08Z" finished-at="2017-08-08T22:41:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="loginToApplication" duration-ms="558" started-at="2017-08-08T22:41:30Z" data-provider="credentials" finished-at="2017-08-08T22:41:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8142755993]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kellogs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="afterMeathod()[pri:0, instance:TestNG.TestAnnotaion@402a079c]" name="afterMeathod" is-config="true" duration-ms="111" started-at="2017-08-08T22:41:30Z" finished-at="2017-08-08T22:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeathod -->
+      </class> <!-- TestNG.TestAnnotaion -->
+    </test> <!-- Login To CitrusPay -->
+  </suite> <!-- LISTENERS TestSuite -->
+</testng-results>

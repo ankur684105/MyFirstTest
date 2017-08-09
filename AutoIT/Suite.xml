@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LISTENERS TestSuite">
+<test name="Login To CitrusPay">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="PageClasses.Test1"></class>
+<class name="TestNG.TestAnnotaion"></class>
+</classes>
+</test>
+</suite>
