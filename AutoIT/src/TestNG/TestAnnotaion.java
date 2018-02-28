@@ -25,7 +25,7 @@ public class TestAnnotaion
 	
 	@BeforeClass
 	public void beforeClass(){
-		report=new ExtentReports("//Users//ankurmarkanda//Desktop//citrusPay.html");
+		report=ExtentFactory.Instance();
 		test= report.startTest("Verify Welcome Test");
 	}
 	
@@ -91,7 +91,7 @@ public class TestAnnotaion
 	  if(testresult.getStatus()==ITestResult.SUCCESS){
 		  String path=ScreenShot.takeScreenShot(driver, testresult.getName());
 		  String imagePath=test.addScreenCapture(path);
-		  test.log(LogStatus.PASS, "Final Step",imagePath);
+		  test.log(LogStatus.FAIL, "Final Step",imagePath);
 	  }
 	  
 	  driver.quit();
